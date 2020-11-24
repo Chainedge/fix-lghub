@@ -2,6 +2,8 @@
 REM This script needs to be run as administrator.
 
 ECHO Terminating any running G HUB processes...
+REM /f parameters are unfortunately required to terminate the processes. They won't go down without it.
+
 REM Not stopping the uninstaller process just in case, it doesn't interfere with our fix, 
 REM nor we want to accidentally stop a process cleaning up an uninstall after a restart.
 REM Just remove the REM before the next line if you still want to stop the uninstaller too.
