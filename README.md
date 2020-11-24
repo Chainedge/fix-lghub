@@ -1,5 +1,5 @@
 # fix-lghub
-A simple script that fixes that G HUB loop problem (you open the program and that G sign animation plays forever) by terminating all G HUB processes and restarting them at the correct order. Based on redditor Missu_'s fix for it at https://www.reddit.com/r/LogitechG/comments/bjiikt/g_hub_stuck_on_loading_animation/f1m6kia?utm_source=share&utm_medium=web2x&context=3.
+A simple script that fixes that G HUB loop problem (you open the program and that G sign animation plays forever) by terminating all G HUB processes and restarting them at the correct order. Based on redditor Missu_'s fix for it at https://www.reddit.com/r/LogitechG/comments/bjiikt/g_hub_stuck_on_loading_animation/f1m6kia
 
 ## Usage
 Simply download this repository as a .zip, extract it, and run the ``fix_lghub.bat`` as administrator (otherwise it won't be able to terminate the processes)
