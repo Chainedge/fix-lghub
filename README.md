@@ -13,7 +13,7 @@ You can automate this script to run at each logon (so you won't have to run ever
 * Your user account is chosen for "Run when this account logs on"
 * "Run with highest privileges" checked
 * "Configure for" is set to your OS version
-* On Triggers, set a trigger for log on, any user or your user.
+* On Triggers, set a trigger for log on, any user or your user. Add a delay of 1 minute to ensure it kicks on after G HUB is ran once. 
 * On Actions, set an action to run this batch
 * On Conditions, uncheck "Start the task only if the computer is on AC power"
 
