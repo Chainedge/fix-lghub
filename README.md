@@ -12,6 +12,7 @@ You can automate this script to run at each logon (so you won't have to run ever
 * Name and description is as you like 
 * Your user account is chosen for "Run when this account logs on"
 * "Run with highest privileges" checked
+* Check "Hidden" if you don't want to see the command prompt at each boot
 * "Configure for" is set to your OS version
 * On Triggers, set a trigger for log on, any user or your user. Add a delay of 1 minute to ensure it kicks on after G HUB is ran once. 
 * On Actions, set an action to run this batch
