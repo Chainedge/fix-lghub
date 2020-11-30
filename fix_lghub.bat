@@ -1,4 +1,5 @@
 @echo off
+title G HUB Restarter
 REM This script needs to be run as administrator.
 
 ECHO Terminating any running G HUB processes...
